@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-color: #3A3A3A;
+    --button-bg-color: #E02C6D;
+    --button-font-color: #ffffff;
+}
+
+/* Common style */
+body {
+    /* margin: 95px; */
+    font-family: 'Poppins', sans-serif;
+    color: var(--font-color);
+    background-color: #f5f5f5;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+/* Header Styles */
+header {
+    display: flex;
+    /* background-color: lightgray; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 95px;
+
+}
+
+.navgator {
+    display: flex;
+}
+
+.nav li {
+    list-style: none;
+    display: inline;
+    padding: 0 17px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Hero Section Style */
+.hero-section {
+    height: 570px;
+    display: flex;
+    align-items: center;
+    padding: 95px;
+}
+
+.left-box {
+    width: 50%;
+}
+
+.hero-product-info h1 {
+    font-size: 52px;
+    line-height: 70px;
+}
+
+.hero-product-info p {
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.prebook {
+    background-color: var(--button-bg-color);
+    color: var(--button-font-color);
+    padding: 10px 24px;
+    border-radius: 41px;
+}
+
+.right-box {
+    background-image: url(/images/circle-design.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Partner Section Style */
+.partner-logo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 95px;
+    /* border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray; */
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-image: linear-gradient(45deg, white, rgb(209, 209, 209), white) 1;
+}
+
+/* Popular Collection Style */
+.products-section {
+    width: 1047px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    /* padding-left: 196px;
+    padding-right: 196px; */
+
+}
+
+.product-showcase {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+
+}
+
+.single-product {
+    width: 329px;
+    padding: 17px 15px;
+    background-color: #ffffff;
+    box-shadow: 0 0 3px lightgrey;
+    border-radius: 5px;
+    margin: 15px;
+
+}
+
+.section-title {
+    justify-content: center;
+    text-align: center;
+    font-size: 28;
+    font-weight: 600;
+    padding-bottom: 30px;
+}
+
+.product-name {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.rating .fill {
+    color: #FB8200;
+}
+
+.rating .half {
+    color: #FB8200;
+}
+
+.rating-point {
+    font-size: 14px;
+    font-weight: 700;
+    color: #5E6366;
+}
+
+.product-description {
+    font-size: 14px;
+    font-weight: 700;
+    color: #787885;
+}
+
+.see-more {
+    text-align: right;
+    margin-top: 35px;
+    color: var(--button-bg-color);
+}
+
+/* Featured Product Section Style */
+.featured-product {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+.feature-info {
+    width: 610px;
+}
+
+.feature-title {
+    font-size: 38px;
+    font-weight: 700;
+    color: #0A0826;
+}
+
+.feature-decscription {
+    margin: 16px 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #6C6C6C;
+}
+
+.join-now {
+    background-color: var(--button-bg-color);
+    color: var(--button-font-color);
+    padding: 10px 24px;
+
+}
+
+/* Footer Section */
+/* .footer {
+    width: 100%;
+    height: 239px;
+    background-color: #0A0826;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+} */
+
+.footer {
+    height: 239px;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-color: #0A0826;
+    color: #ffffff;
+}
+
+.social-icon i {
+    padding: 8px;
+    margin-top: 17px;
+}

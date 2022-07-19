@@ -270,14 +270,6 @@ header {
         align-items: center;
     }
 
-    /* .navgator {
-        width: 20%;
-    } */
-
-    /* .nav li {
-        display: none;
-    } */
-
     .nav {
         display: none;
     }
@@ -287,8 +279,6 @@ header {
         text-align: center;
         font-size: 24px;
         padding: 0;
-        /* justify-content: center;
-        margin: 0 auto; */
     }
 
     .hero-section {
@@ -366,9 +356,11 @@ header {
     }
 
     .featured-product {
-        /* display: 100px; */
-        margin: 0;
-        padding: 30px 0;
+        width: 100%;
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
 
     }
 
@@ -386,25 +378,25 @@ header {
         line-height: 28px;
     }
 
-    .featured-product {
-        width: 100%;
-        flex-direction: column-reverse;
-        di
-    }
 
-    .feature-image {
-        padding: 3px;
-        width: 50px;
+    .feature-image img {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+
     }
 
     .join-now {
-        margin-top: 70px;
+        margin-top: 40px;
         margin-bottom: 30px;
         font-size: 16px;
         font-weight: 700;
-
     }
 }
+
+
+
 
 /* Desktop */
 @media only screen and (min-width: 576px) {

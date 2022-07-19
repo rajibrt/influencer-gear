@@ -75,7 +75,7 @@ header {
 }
 
 .right-box {
-    background-image: url(images/circle-design.svg);
+    background-image: url(../images/circle-design.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;

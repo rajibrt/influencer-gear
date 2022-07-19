@@ -73,6 +73,7 @@ header {
     padding: 10px 24px;
     border-radius: 41px;
     font-size: 16px;
+    align-items: center;
 }
 
 .right-box {

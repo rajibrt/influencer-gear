@@ -28,7 +28,7 @@ header {
     /* background-color: lightgray; */
     justify-content: space-between;
     align-items: center;
-    padding: 95px;
+    padding: 95px 95px 0px 95px;
 
 }
 
@@ -49,7 +49,7 @@ header {
     height: 570px;
     display: flex;
     align-items: center;
-    padding: 95px;
+    padding: 0 95px;
 }
 
 .left-box {
@@ -112,6 +112,7 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
+    justify-items: center;
     padding-bottom: 50px;
 
 }
@@ -359,7 +360,7 @@ header {
 
     .product-showcase {
         grid-template-columns: repeat(1, 1fr);
-        justify-content: space-between;
+        /* justify-content: space-between; */
         margin-top: 0px;
         padding-top: 0px;
         padding-bottom: 32px;
